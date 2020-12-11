@@ -1,4 +1,7 @@
+# Настройки проекта
+from Enviroment import *;
+# Контролле интерфейсов
 from InterfaceController import *;
 
-interface = InterfaceController();
+interface = InterfaceController(APP_NAME);
 interface.getInterface();
